@@ -4,9 +4,23 @@
 .pageFlex{
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    margin: 10px;
     padding: 20px;
-    width: 40%;
+}
+.pageText{
+    margin: 40px;
+    padding: 40px;
+    padding-top: 10;
+    margin-right: 35px;
+
+}
+.pageImage{
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 35px;
+    padding: 10px;
 }
 .pageHeading{
     /* position: absolute;
@@ -14,15 +28,14 @@
     height: 32px;
     left: 107px;
     top: 95px; */
+    margin-bottom: 44px;
 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 27px;
-    /* line-height: 32px; */
+    line-height: 32px;
     /* identical to box height */
-
-
     color: #FFFFFF;
 }
 .pagePara{
@@ -31,6 +44,32 @@
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
-
     color: #C4C4C4;
+    margin-bottom: 60px;
+}
+.pageButton{
+    width: 340px;
+    height: 68px;
+    background: #000000;
+    border-radius: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* /////////////////////////////////////////// */
+
+.page2Heading{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 19px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
 }
